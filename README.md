@@ -1,6 +1,6 @@
 # PotNet v2
 
-This is the code for the paper *Heritage's special issue* paper [A Deep Learning Approach to Assist in Pottery Reconstruction from Its Sherds](https://www.mdpi.com/2571-9408/8/5/167), by Matheus Pinho, Guilherme Mota and Gilson Costa, presented at the Conference on Cultural Heritage and New Techologies (CHNT) 29th edition.
+This is the code for the *Heritage's special issue* paper [A Deep Learning Approach to Assist in Pottery Reconstruction from Its Sherds](https://www.mdpi.com/2571-9408/8/5/167), by Matheus Pinho, Guilherme Mota and Gilson Costa, presented at the Conference on Cultural Heritage and New Techologies (CHNT) 29th edition.
 
 Here we present a deep-learning-based method to find the relative positions of pottery sherds to help in pottery reconstruction. The neural network architecture used as the backbone of the method, the so-called PotNet, was designed to perform non-linear regressions.
 
