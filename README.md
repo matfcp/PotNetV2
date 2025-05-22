@@ -14,7 +14,7 @@ First start by cloning this repository
 ```bash
 git clone https://github.com/matfcp/PotNetV2.git
 ```
-Create a [`conda` environment](https://docs.conda.io/projects/conda/en/latest/index.html)\*
+Create a [`conda` environment](https://docs.conda.io/projects/conda/en/latest/index.html):
 ```bash
 conda create -n potnet
 conda activate potnet
