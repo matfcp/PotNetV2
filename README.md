@@ -27,11 +27,11 @@ python3 -m pip install -r requirements.txt
 
 ## Training
 
-If you want to process the data, first download the [ZIP](https://mega.nz/file/X8wkjSJQ#iDKT71NUTDCtFyWbU4gYqDTeWVnOr-d03qnSKmlUddQ) file contaning 2000 synthetic breaks of the LV vessel as an example. Just unzip it and put the *LV_dataset* folder inside *data* folder. You can use the *process_data.py* script to generate the processed file that will be used to train the networks. 
+If you want to process the data, first download the [ZIP](https://mega.nz/file/X8wkjSJQ#iDKT71NUTDCtFyWbU4gYqDTeWVnOr-d03qnSKmlUddQ) file contaning 2000 synthetic breaks of the LV vessel as an example. Just unzip it and put the *LV_dataset* folder inside *data* folder. You can use the *process_data.py* script to generate the processed files that will be used to train the networks. 
 
 You can also download the ready-to-use LV processed data ([points](https://mega.nz/file/H5ZigJrC#14y9DjPuvR5lGsMAnCwqpXL1pn37ALGoZsBzDdLf3z8), [targets](https://mega.nz/file/bp4zAYKQ#AkrTA3XWPs3rwmwfOBTFKaVptAbwwD_nRqmsQrJEzxA)) to run tests, just put the files inside *train_data/LV* folder.
 
-To train, simply open the terminal in the parent directory of this repository and do
+To train, simply open the terminal in the main directory of this repository and do
 ```bash
 scripts/train.sh
 ```
